@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results Summary Component</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="container__results">
+        <h3 class="results__title">Your Result</h3>
+        <p class="results__score">
+          <span class="results__score--bold">76</span> of 100
+        </p>
+        <p class="results__status">Great</p>
+        <p class="results__description">
+          You scored higher than 65% of <br />
+          the people who have taken <br />
+          these tests.
+        </p>
+      </section>
+
+      <section class="container__summary">
+        <h3 class="summary__title">Summary</h3>
+
+        <div class="summary__item">
+          <h4 class="summary__item-title">
+            <img
+              class="item__img"
+              src="/assets/images/icon-reaction.svg"
+              alt="reaction icon"
+            /><span class="item__bold">Reaction</span>
+          </h4>
+          <p class="summary__item-score">
+            <span class="item__bold"> 85 </span> / 100
+          </p>
+        </div>
+
+        <div class="summary__item">
+          <h4 class="summary__item-title">
+            <img
+              class="item__img"
+              src="/assets/images/icon-memory.svg"
+              alt="memory icon"
+            /><span class="item__bold">Memory</span>
+          </h4>
+          <p class="summary__item-score">
+            <span class="item__bold"> 92 </span> / 100
+          </p>
+        </div>
+
+        <div class="summary__item">
+          <h4 class="summary__item-title">
+            <img
+              class="item__img"
+              src="/assets/images/icon-verbal.svg"
+              alt="Verbal icon"
+            /><span class="item__bold">Verbal</span>
+          </h4>
+          <p class="summary__item-score">
+            <span class="item__bold"> 62 </span> / 100
+          </p>
+        </div>
+
+        <div class="summary__item">
+          <h4 class="summary__item-title">
+            <img
+              class="item__img"
+              src="/assets/images/icon-visual.svg"
+              alt="Visual icon"
+            /><span class="item__bold">Visual</span>
+          </h4>
+          <p class="summary__item-score">
+            <span class="item__bold"> 72 </span> / 100
+          </p>
+        </div>
+
+        <button class="summary__button">
+          <a href="#" class="summary__button-link">Continue</a>
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
